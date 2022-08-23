@@ -19,7 +19,7 @@ const Products = ({state, dispatch}) => {
                     border:"1px solid grey",
                     width: "20%",
                     marginTop: 10,
-                    gap: 10,   
+                    gap: 11,   
                 }}
                 >
                 <img src={prod.thumbnail} alt={prod.title} style={{height:200, objectFit:"cover"}}
